@@ -65,8 +65,8 @@ class Signup extends Component {
                                 value="Submit"
                             />
                     </Col>
-                    </Row>
-                    </Grid>
+                </Row>
+                </Grid>
                 </form>
             </div>
         )
