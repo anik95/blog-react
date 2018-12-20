@@ -1,0 +1,33 @@
+/* body > div > div {
+    position: relative;
+    background: #fff;
+    height: 100vh;
+}
+
+.form-input {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #f2f2f2;
+    padding: 2rem;
+    border: 1px solid #ddd;
+
+}
+
+label {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 2rem;
+}
+
+@media(max-width: 600px) {
+    label {
+        grid-template-columns: 1fr;
+        font-size: 12px;
+    }
+
+    label > input {
+        margin-top: 1rem;
+    }
+} */
