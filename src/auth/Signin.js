@@ -7,7 +7,8 @@ class Signin extends Component {
 		super()
 		this.state = {
 			email: '',
-			password: ''
+			password: '',
+			accessToken: ''
 		}
 	}
   
@@ -28,6 +29,7 @@ class Signin extends Component {
         password: this.state.password
       }
 		}).then((response) => {
+				this.setState({ accessToken: response.data.access_token })
         localStorage.setItem('Token', response.data.access_token)
       }).catch(() => console.log("something went wrong"))
 	} 
