@@ -39,12 +39,12 @@ class Signin extends Component {
 	}
 
 	renderLoginForm() {
-        const wellStyles = { maxWidth: 600, margin: '10px auto 10px' }
+    const wellStyles = { maxWidth: 600, margin: '10px auto 10px' }
 		return (
 			<div>
 				<Grid>
 					<Row className="show-grid">
-						<Col xs={12} md ={4} mdOffset={4}>
+						<Col xs={12} md={4} mdOffset={4}>
 							<div className="well" style={{margin: '100px 0 0 0'}}>
 								<h4>Sign In</h4>
 								<FormGroup controlId="formBasicText" />

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import axios from 'axios'
 import { Navbar, Nav, NavItem } from 'react-bootstrap'
 
-class Dashboard extends Component {
+class NavbarProject extends Component {
   constructor() {
     super()
     this.state = {
@@ -37,4 +37,4 @@ class Dashboard extends Component {
     )
   }
 }
-export default Dashboard
+export default NavbarProject
